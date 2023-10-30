@@ -17,7 +17,7 @@ public class PasswordGenerator
 		String all = digits+lowercase+uppercase;   //+symbols;
 		String pswd="";
 		
-		for(int i=0;i<=noOfDigits;i++)
+		for(int i=1;i<=noOfDigits;i++)
 		{
 			int index = random.nextInt(all.length()-1);
 			pswd = pswd + all.charAt(index);
